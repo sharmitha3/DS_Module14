@@ -3,11 +3,13 @@
 ## AIM:
 To write a C function to calculate the turnaround time of each process given their burst time and waiting time in First Come first Serve scheduling algorithm.
 ## Algorithm
+```
 1. Loop through all processes from i = 0 to n-1.
 2.For each process, access its burst time and waiting time.
 3.Add burst time and waiting time to get turnaround time.
 4.Store the result in the tat[] array at the same index.
 5.After the loop ends, return 0 to indicate successful execution.
+```
 ## Program:
 ```
 /*
