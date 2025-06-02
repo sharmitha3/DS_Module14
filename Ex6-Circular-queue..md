@@ -4,12 +4,13 @@
 To write a C program to delete three elements from the filled circular queue.
 
 ## Algorithm
+```
 1. Check if the queue is empty using isEmpty() function.
 2.If empty, display a message and return 0.
 3.If not empty, retrieve the front element from the queue.
 4.Update front using circular increment: (front + 1) % SIZE.
 5.Return the retrieved element.
-
+```
 ## Program:
 ```
 /*
