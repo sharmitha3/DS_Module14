@@ -4,12 +4,13 @@
 To write a C function to count the number of elements present in the deque.
 
 ## Algorithm
+```
 1. Initialize a counter variable c to 0.
 2.Loop through each index i from 0 to MAX-1 in the array.
 3.Check if the element at position i is greater than 0.
 4.If it is, increment the counter c.
 5.After the loop, return the final count c as the number of valid elements.  
-
+```
 ## Program:
 ```
 /*
