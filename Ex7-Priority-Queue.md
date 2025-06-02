@@ -4,12 +4,13 @@
 To formulate the C code to display the elements of the priority queue after insertion and deletion operation.
 
 ## Algorithm
+```
 1. Read number of elements m to insert, then insert each element into the heap using insert().
 2.Read number of elements m to delete, then delete each specified element using deleteRoot().
 3.Use helper functions insert() and deleteRoot() to maintain the Max-Heap property.
 4.After all insertions and deletions, print the final heap using printArray().
 5.The array represents a Max-Heap, where each parent node is greater than or equal to its children.   
-
+```
 ## Program:
 ```
 /*
